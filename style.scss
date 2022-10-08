@@ -31,9 +31,12 @@ main{
         height: 100vh;
     }
 
-    .main-esquerda{
-        margin-left: 140px;
-    }
+}
+
+.main-esquerda{
+    margin-left: 140px;
+    margin-right: 80px;
+    
 
     .fb_logo{
         margin: -28px;
@@ -46,5 +49,59 @@ main{
         width: 500px;
         padding: 20px 0;
     }
-  
+}
+
+.main-direita{
+    margin-right: 140px;
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 396px;
+        height: 315px;
+        padding: 20px 0 28px;
+        margin: 40px 0 0; 
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        border-radius: 8px;
+    }
+
+    input{
+        font-size: 17px;
+        border-radius: 6px;
+        border: 1px solid #dddfe2;
+        width: 340px;
+        height: 22px;
+        padding: 14px 16px;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    #entrar{
+        background-color: #1877f2;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        font-size: 20px;
+        padding: 0 16px;
+        height: 48px;
+        width: 370px;
+    }
+
+    #entrar:hover{
+        background-color: #186cda;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
 }
