@@ -1,0 +1,18 @@
+$cor_fundo: #f0f2f5;
+
+// Configs de Fonte: 
+$fonte_padrao: Helvetica, Arial, sans-serif;
+$cor_padrao: #1c1e21;
+$tamanho_padrao: 12px;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $fonte_padrao;
+    color: $cor_padrao;
+    font-size: $tamanho_padrao;
+}
+
+body{
+    background-color: $cor_fundo;
+}
