@@ -31,15 +31,6 @@ main{
         height: 100vh;
     }
 
-    p{  
-        margin-top: 30px;
-        font-size: 13px;
-    }
-
-    #link-baixo{
-        font-weight: bold;
-        font-size: 14px;
-    }
 }
 
 .main-esquerda{
@@ -78,6 +69,7 @@ main{
     }
 
     input{
+        outline: none;
         font-size: 17px;
         border-radius: 6px;
         border: 1px solid #dddfe2;
@@ -85,7 +77,6 @@ main{
         height: 22px;
         padding: 14px 16px;
     }
-
     button{
         cursor: pointer;
     }
@@ -121,6 +112,10 @@ main{
         font-size: 17px;
     }
 
+    #criar:hover{
+        background-color: #3ba626;
+    }
+
     #entrar:hover{
         background-color: #186cda;
     }
@@ -138,5 +133,15 @@ main{
         color: #1877f2;
         font-size: 14px;
         font-weight: 500;
+    }
+
+    #link-baixo{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #texto-final{
+        margin-top: 25px;
+        font-size: 13px;
     }
 }
