@@ -97,6 +97,14 @@ main{
         width: 370px;
     }
 
+    #linha{
+        align-items: center;
+        border-bottom: 1px solid #dadde1;
+        width: 364px;
+        margin: 20px 16px;
+        text-align: center;
+    }
+
     #criar{
         background-color: #42b72a;
         height: 48px;
@@ -120,6 +128,5 @@ main{
         color: #1877f2;
         font-size: 14px;
         font-weight: 500;
-        margin: 10px 0;
     }
 }
