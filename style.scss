@@ -19,20 +19,32 @@ body{
 }
 
 main{
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     height: 100vh;
 
+    .main-esquerda,
+    .main-direita{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
 
-    .logo{
-        height: 300px;
+    .main-esquerda{
+        margin-left: 140px;
+    }
+
+    .fb_logo{
+        margin: -28px;
         width: 300px;
+        height: 105px;
     }
 
     p{
         font-size: $tamanho_1;
-        line-height: 32px;
         width: 500px;
+        padding: 20px 0;
     }
+  
 }
