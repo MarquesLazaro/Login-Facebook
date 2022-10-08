@@ -81,16 +81,27 @@ main{
         cursor: pointer;
     }
 
-    #entrar{
-        background-color: #1877f2;
+    #entrar,
+    #criar{
         color: #fff;
         font-weight: bold;
         border: none;
         border-radius: 6px;
-        font-size: 20px;
         padding: 0 16px;
+    }
+
+    #entrar{
+        background-color: #1877f2;
+        font-size: 20px;
         height: 48px;
         width: 370px;
+    }
+
+    #criar{
+        background-color: #42b72a;
+        height: 48px;
+        width: 170px;
+        font-size: 17px;
     }
 
     #entrar:hover{
@@ -103,5 +114,12 @@ main{
 
     a:hover{
         text-decoration: underline;
+    }
+
+    #senha{
+        color: #1877f2;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 10px 0;
     }
 }
