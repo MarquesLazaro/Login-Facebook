@@ -4,6 +4,7 @@ $cor_fundo: #f0f2f5;
 $fonte_padrao: Helvetica, Arial, sans-serif;
 $cor_padrao: #1c1e21;
 $tamanho_padrao: 12px;
+$tamanho_1: 28px;
 
 *{
     margin: 0;
@@ -15,4 +16,23 @@ $tamanho_padrao: 12px;
 
 body{
     background-color: $cor_fundo;
+}
+
+main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+
+
+    .logo{
+        height: 300px;
+        width: 300px;
+    }
+
+    p{
+        font-size: $tamanho_1;
+        line-height: 32px;
+        width: 500px;
+    }
 }
